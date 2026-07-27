@@ -25,4 +25,10 @@ O Personal Access Token (PAT) é uma forma de autenticação utilizada pelo GitH
 
 ### Salvar em cache as credenciais do PAT
 
+Salvar as credenciais em cache evita que seja necessário informar o Personal Access Token sempre que uma operação de autenticação for realizada. Dessa forma, durante o período configurado, o Git utiliza automaticamente as credenciais armazenadas, tornando o uso da ferramenta mais prático.
+
+```bash
+git config --global credential.helper "cache --timeout=3600"
+```
+
 ## Qual a diferença entre git merge e git rebase?
