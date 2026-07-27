@@ -1,3 +1,5 @@
+![GitHub License](https://img.shields.io/github/license/luiseabreu/POO?style=flat-square)
+
 # Atividades práticas da disciplina de Programação Orientada a Objetos
 
 Repositório com as atividades práticas da disciplina de Programação Orientada a Objetos.
