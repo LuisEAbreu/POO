@@ -6,8 +6,8 @@ Repositório com as atividades práticas da disciplina de Programação Orientad
 
 ## Laboratórios
 
-- [Laboratório 01](lab-01) - Sistema de Controle de Versão
+- [Laboratório 01](laboratorios/lab-01) - Sistema de Controle de Versão
 
 ## Aulas
 
-- [Aula 01](aula-01) - Introdução à linguagem Java
+- [Aula 01](aulas/2026-07-27) - Introdução à linguagem Java
