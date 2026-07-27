@@ -32,3 +32,11 @@ git config --global credential.helper "cache --timeout=3600"
 ```
 
 ## Qual a diferença entre git merge e git rebase?
+
+Os comandos `git merge` e `git rebase` são usados para integrar alterações entre branches, porém fazem isso de maneiras diferentes.
+
+O `git merge` une duas branches preservando todo o histórico de desenvolvimento. Quando necessário, é criado um commit de merge, permitindo identificar facilmente quando as alterações foram combinadas. Esse comando é recomendado quando o histórico completo do projeto deve ser mantido.
+
+Já o `git rebase` reaplica os commits de uma branch sobre outra, reorganizando o histórico para que ele fique linear. O resultado é um histórico mais limpo e fácil de acompanhar, porém como ele reescreve os commits, não é recomendado utilizá-lo em branches que já foram compartilhadas com outras pessoas.
+
+De forma geral, o `git merge` é a opção mais segura para trabalhos em equipe, enquanto o `git rebase` é bastante útil para organizar o histórico antes de publicar alterações.
