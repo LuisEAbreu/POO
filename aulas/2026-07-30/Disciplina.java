@@ -18,10 +18,9 @@ void main(){
 
     String aux;
     int i = 0;
-    
+
     do {
-        aux = IO.readln("Entre com o dia da semana que você tem aula: ");
-        aux = aux.toLowerCase();
+        aux = IO.readln("Entre com o dia da semana que você tem aula: ").toLowerCase();
         
         if(comparaDias(aux)){
             diasDaSemana[i] = aux;
